@@ -11,30 +11,52 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. by Research in Computer Science, IIIT Hyderabad, 2021-24
+
+* B.Tech Computer Science, IIIT Hyderabad, 2019-23
+  * 
+
+<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* July - December 2023: ML Alignment Theory Scholar
+  * Stanford Existential Risk Institute
+  * Worked on desgining metrics for deception and evaluating activation directions to steer Large Language Models.
+  * Mentor: Dan Hendrycks
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* May - July 2023: Quantitative Research Intern
+  * Central Research Team India, Millennium
+  * Designed an AutoML pipeline for alpha generation.
+
+* November - December 2022: ML Alignment Theory Trainee
+  * Stanford Existential Risk Institute
+  * Studied the Alignment 201 Curriculum, the Value Learning sequence and research on inducing a bias for minimizing side-effects in AI models.
+  * Mentors: Stuart Armstrong and Rebecca Gorman
+
+* May - July 2022: Research Intern
+  * LAMSADE, CNRS
+  * Research on sequential decision making rules that represent preferences of inferred groups proportionally.
+  * Mentors: Jérôme Lang and Dominik Peters
+
+* March - September 2021: Research Assistant
+  * Santa Fe Institute
+  * Analyzed semantic evolution as random walks on a multilingual colexification network
+  * Mentor: Tanmoy Bhattacharya
+
+* April 2020 - February 2021: Developer, Researcher
+  * Apertium, Google Summer of Code
+  * Research on finding new dictionary translations as link prediction on Graphs. Designed new metrics and improved algorithms. 
+  * Mentors: Mikel Forcada, Jorge Gracia
   
-Skills
+<!-- Skills
 ======
 * Skill 1
 * Skill 2
   * Sub-skill 2.1
   * Sub-skill 2.2
   * Sub-skill 2.3
-* Skill 3
+* Skill 3 -->
 
 Publications
 ======
@@ -50,10 +72,14 @@ Talks
   
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
+* Teaching Assistant, Automata Theory, IIIT Hyderabad, Monsoon 2022.
+* Teaching Assistant, Topics in Deep Learning: Graph Neural Networks, IIIT Hyderabad, Spring 2023.
+* Facilitator, AI Safety Fundamentals, Spring 2023.
+  <!-- <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Outstanding Reviewer (Top 10%), ICML 2022.
+* Reviewer for CoLLAs 2023.

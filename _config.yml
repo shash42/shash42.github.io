@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Shash's Website"
 title_separator          : "-"
 name                     : &name "Shashwat Goel"
-description              : &description "Senior at IIIT Hyderabad"
+description              : &description "Final-year Master's Student"
 url                      : https://shash42.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shash42.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Shashwat Goel"
   avatar           : "profile.png"
-  bio              : "I want to understand intelligence better to better control it and do good."
-  location         : "Hyderabad, Delhi"
+  bio              : "Learning how machines learn."
+  location         : "Delhi, India"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=exaNV-0AAAAJ&hl=en"

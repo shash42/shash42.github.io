@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-Lorem ipsum
+I am a final year master's student interested in designing evaluations that help us better how understand Machine Learning models work. In this process, I hope to identify and mitigate potential harms from transformative AI.
+
+I have been fortunate to have excellent collaborators from whom I've learnt a lot. I'm grateful for mentorship from [Ameya Prabhu] (https://drimpossible.github.io/), [Dan Hendrycks] (https://people.eecs.berkeley.edu/~hendrycks/), [Dominik Peters] (https://dominik-peters.de/), [Mikel Forcada] (https://www.dlsi.ua.es/~mlf/), [Mukesh Kumar] (https://www.ikkumpal.com/), [Jérôme Lang] (https://www.lamsade.dauphine.fr/~lang/), [Jorge Gracia] (http://jogracia.url.ph/web/), [Ponnurangam Kumaraguru] (https://precog.iiit.ac.in/), [Saujas Vaduguru] (https://saujasv.github.io/), and [Tanmoy Bhattacharya] (https://sites.santafe.edu/~tanmoy/cv.html). Thanks to them, I have been able to explore a diverse range of research areas during undergrad, including Knowledge Removal in DNNs, Interpretability of LLMs, Social Choice Theory, Machine Translation, Semantic Evolution and Algorithm Design.
+
+
 
 <!-- This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
