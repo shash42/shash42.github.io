@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a final year master's student interested in designing evaluations that help us better how understand Machine Learning models work. In this process, I hope to identify and mitigate potential harms from transformative AI.
+I am a final year master's student interested in designing evaluations that help us better understand how Machine Learning models work. In this process, I hope to identify and mitigate potential harms from transformative AI.
 
-I have been fortunate to have excellent collaborators from whom I've learnt a lot. I'm grateful for mentorship from [Ameya Prabhu] (https://drimpossible.github.io/), [Dan Hendrycks] (https://people.eecs.berkeley.edu/~hendrycks/), [Dominik Peters] (https://dominik-peters.de/), [Mikel Forcada] (https://www.dlsi.ua.es/~mlf/), [Mukesh Kumar] (https://www.ikkumpal.com/), [Jérôme Lang] (https://www.lamsade.dauphine.fr/~lang/), [Jorge Gracia] (http://jogracia.url.ph/web/), [Ponnurangam Kumaraguru] (https://precog.iiit.ac.in/), [Saujas Vaduguru] (https://saujasv.github.io/), and [Tanmoy Bhattacharya] (https://sites.santafe.edu/~tanmoy/cv.html). Thanks to them, I have been able to explore a diverse range of research areas during undergrad, including Knowledge Removal in DNNs, Interpretability of LLMs, Social Choice Theory, Machine Translation, Semantic Evolution and Algorithm Design.
+I have been fortunate to have excellent collaborators from whom I've learnt a lot. I'm grateful for mentorship from [Ameya Prabhu](https://drimpossible.github.io/), [Dan Hendrycks](https://people.eecs.berkeley.edu/~hendrycks/), [Dominik Peters](https://dominik-peters.de/), [Mikel Forcada](https://www.dlsi.ua.es/~mlf/), [Mukesh Kumar](https://www.ikkumpal.com/), [Jérôme Lang](https://www.lamsade.dauphine.fr/~lang/), [Jorge Gracia](http://jogracia.url.ph/web/), [Ponnurangam Kumaraguru](https://precog.iiit.ac.in/), [Saujas Vaduguru](https://saujasv.github.io/), and [Tanmoy Bhattacharya](https://sites.santafe.edu/~tanmoy/cv.html). Thanks to them, I have been able to explore a diverse range of research areas during undergrad, including Knowledge Removal in DNNs, Interpretability of LLMs, Social Choice Theory, Machine Translation, Semantic Evolution and Algorithm Design.
 
 
 

@@ -14,7 +14,8 @@ Education
 * M.S. by Research in Computer Science, IIIT Hyderabad, 2021-24
 
 * B.Tech Computer Science, IIIT Hyderabad, 2019-23
-  * 
+
+* Schooling, Delhi Public School R.K. Puram, 2005-19
 
 <!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
 
