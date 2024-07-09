@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Shash's Website"
+title                    : "Shash's Homepage"
 title_separator          : "-"
 name                     : &name "Shashwat Goel"
-description              : &description "Final-year Master's Student"
+description              : &description "Incoming PhD Student"
 url                      : https://shash42.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "shash42.github.io"
