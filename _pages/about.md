@@ -8,13 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming PhD student at the ELLIS Institute and Max Planck Institute for Intelligent Systems, Tübingen, co-advised by Jonas Geiping and Douwe Kiela through the ELLIS PhD program. I am interested in how to make ML systems learn when humans can't provide unambgious ground-truth: whether it be handling conflicting preferences, asking information-seeking questions, or solving novel problems. Feel free to get in touch if you want to chat about ideas! A small sample of areas I'm excited about:
-
-<ol>
-<li> Science of pretraining task design, data, and evaluations
-<li> Controlled, iterative development of ML systems
-<li> AI assistants for learning and research
-</ol>
+I am an incoming PhD student at the ELLIS Institute and Max Planck Institute for Intelligent Systems, Tübingen, co-advised by [Jonas Geiping](https://jonasgeiping.github.io/) and [Douwe Kiela](https://douwekiela.github.io/) through the ELLIS PhD program. I am interested in how to make ML systems learn when humans can't provide unambgious ground-truth: whether it be handling conflicting preferences, asking information-seeking questions, or solving novel problems. Feel free to get in touch if you want to chat about ideas! Here are some areas I'm excited about:
+- Science of pretraining task design, data, and evaluations
+- Enabling iterative improvement of ML models
+- AI assistants for learning and research
 
 <h3>News</h3>
 {% assign news = site.data.news | where: "hidden", nil | sort: 'date' | reverse | slice: 0, 7 %}
