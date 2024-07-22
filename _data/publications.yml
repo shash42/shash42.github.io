@@ -12,8 +12,8 @@
     twitter: https://x.com/ShashwatGoel7/status/1760911396034793831
     code: https://github.com/drimpossible/corrective-unlearning-bench
   type: paper
-  description: >
-    We highlight key distinctions between the application of unlearning to privacy vs removing manipulated or incorrect training data, and we call the latter "Corrective Unlearning". Specifically, the deletion set is not provided by user requests, and model developers may only identify a subset of manipulated samples whose influence is to be deleted. "Retraining on the retain set from scratch'', previously considered a theoretical gold standard, becomes insufficient when the entire manipulated set is not known, re-inforcing the adverse effect of retained manipulated samples. State of the art unlearning procedures aim to approximate this gold standard, leading to existing methods performing poorly when even upto 80\% poisoned samples are identified. We find evidence that corrective unlearning is tractibile, but there is a need for unlearning methods that can handle arbitrary manipulations. 
+  # description: >
+  #   We highlight key distinctions between the application of unlearning to privacy vs removing manipulated or incorrect training data, and we call the latter "Corrective Unlearning". Specifically, the deletion set is not provided by user requests, and model developers may only identify a subset of manipulated samples whose influence is to be deleted. "Retraining on the retain set from scratch'', previously considered a theoretical gold standard, becomes insufficient when the entire manipulated set is not known, re-inforcing the adverse effect of retained manipulated samples. State of the art unlearning procedures aim to approximate this gold standard, leading to existing methods performing poorly when even upto 80\% poisoned samples are identified. We find evidence that corrective unlearning is tractibile, but there is a need for unlearning methods that can handle arbitrary manipulations. 
 
 - title: 'The WMDP Benchmark: Measuring and Reducing Malicious Use with Unlearning'
   authors:
@@ -27,8 +27,8 @@
     webpage: https://www.wmdp.ai/ 
     code: https://github.com/centerforaisafety/wmdp
   type: paper
-  description: >
-    We introduce unlearning dual-use knowledge from LLMs as a post-training safety intervention. We release an MCQ benchmark for measuring hazardous knowledge related to the design of bioweapons, cyberattacks, and chemical weapons. We propose RMU, an activation space unlearning method that reduces hazardous knowledge while maintaining overall LLM performance. I designed evaluations and implemented baselines for this project, being involved in ideation from start to finish.
+  # description: >
+  #   We introduce unlearning dual-use knowledge from LLMs as a post-training safety intervention. We release an MCQ benchmark for measuring hazardous knowledge related to the design of bioweapons, cyberattacks, and chemical weapons. We propose RMU, an activation space unlearning method that reduces hazardous knowledge while maintaining overall LLM performance. I designed evaluations and implemented baselines for this project, being involved in ideation from start to finish.
 
 - title: 'Proportional Aggregation of Preferences for Sequential Decision Making'
   authors:
