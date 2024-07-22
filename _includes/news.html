@@ -1,5 +1,5 @@
 {% capture content %}
-<table>
+<table style='border:none;'>
 {% for note in include.news %}
 <tr><td style='border:none;'><strong>{{ note.date | date: "%-d %B %Y" }}</strong></td><td style='border:none;'>{{ note.item }}</td></tr>
 {% endfor %}
@@ -7,3 +7,4 @@
 {% endcapture %}
 
 {{ content | markdownify }}
+
