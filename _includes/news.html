@@ -1,7 +1,7 @@
 {% capture content %}
 <table style='border:none;'>
 {% for note in include.news %}
-<tr><td style='border:none; width:150px; padding-right: 10px;'><strong>{{ note.date | date: "%-d %B %Y" }}</strong></td><td style='border:none;'>{{ note.item }}</td></tr>
+<tr><td style='border:none; width:160px; padding-right: 10px;'><strong>{{ note.date | date: "%-d %B %Y" }}</strong></td><td style='border:none;'>{{ note.item }}</td></tr>
 {% endfor %}
 </table>
 {% endcapture %}
