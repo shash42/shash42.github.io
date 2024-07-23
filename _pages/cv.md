@@ -4,10 +4,10 @@ title: Curriculum Vitae
 permalink: /cv/
 ---
 
-<a href="/assets/Shashwat-Goel-CV.pdf"><i class="fa-solid fa-file-pdf"></i> View PDF</a><br>
-<a href="https://shash42.github.io/"><i class="fa-solid fa-globe"></i> shash42.github.io</a><br>
-<a href="mailto:shashwatnow@gmail.com"><i class="fa-solid fa-envelope"></i> shashwatnow@gmail.com</a><br>
-<a href="https://github.com/shash42"><i class="fa-brands fa-github"></i> shash42</a>
+<a href="/assets/Shashwat-Goel-CV.pdf"> View PDF</a><br>
+<a href="https://shash42.github.io/"> shash42.github.io</a><br>
+<a href="mailto:shashwatnow@gmail.com"> shashwatnow@gmail.com</a><br>
+<a href="https://github.com/shash42"> shash42</a>
 
 <h2>Education</h2>
 <div class="cvitem">
