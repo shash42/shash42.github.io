@@ -11,48 +11,46 @@ permalink: /cv/
 
 <h2>Education</h2>
 <div class="cvitem">
-<strong>B.Tech. and M.S. (by Research) in Computer Science Engineering</strong>, 2019–2024<br>
+**B.Tech. and M.S. (by Research) in Computer Science Engineering**, 2019–2024<br>
 <em>International Institute of Information Technology (IIIT), Hyderabad</em>
 <br>GPA: 9.60/10<br>
 <span class="small-caps">Thesis:</span> New Frontiers for Machine Unlearning, advised by Prof. Ponnurangam K.<br>
 </div>
 
-<h2>Research Experience</h2>
+<h2>Experience</h2>
 <div class="cvitem">
-<strong>Researcher</strong>, Stanford Existential Risk Institute ML Alignment Theory Scholars (SERI MATS), July–Dec 2023<br>
+**Researcher**, Stanford Existential Risk Institute ML Alignment Theory Scholars (SERI MATS), July–Dec 2023<br>
 <span class="small-caps">Mentor:</span> Dan Hendrycks<br>
 </div>
 
 <div class="cvitem">
-<strong>Quantitative Research Intern</strong>, Central Research Team, Millennium India, May–June 2023<br>
+**Quantitative Research Intern**, Central Research Team, Millennium India, May–June 2023<br>
 <span class="small-caps">Project:</span> AutoML for Tree-based and linear ensembles to find alpha across datasets<br>
 </div>
 
 <div class="cvitem">
-<strong>Research Intern</strong>, Social Choice Theory, LAMSADE, CNRS, May–July 2022<br>
+**Research Intern**, Social Choice Theory, LAMSADE, CNRS, May–July 2022<br>
 <span class="small-caps">Advisors:</span> Jerome Lang, Dominik Peters<br>
 </div>
 
 <div class="cvitem">
-<strong>Research Assistant</strong>, Language Evolution, Santa Fe Institute, July–Sept 2021<br>
+**Research Assistant**, Language Evolution, Santa Fe Institute, July–Sept 2021<br>
 <span class="small-caps">Mentor:</span> Tanmoy Chakroborty<br>
 </div>
 
 <div class="cvitem">
-<strong>Developer</strong>, Distributed Computing Laboratory, Summer@EPFL, May–June 2021<br>
+**Developer**, Distributed Computing Laboratory, Summer@EPFL, May–June 2021<br>
 <span class="small-caps">Mentors:</span> Matteo Monti, Rachid Guerraroui<br>
 </div>
 
 <div class="cvitem">
-<strong>Research Developer</strong>, Apertium, Google Summer of Code, April–Aug 2020<br>
+**Research Developer**, Apertium, Google Summer of Code, April–Aug 2020<br>
 <span class="small-caps">Mentors:</span> Mikel Forcada, Jorge Gracia<br>
 </div>
 
 <h2>Publications</h2>
-{% include publications.html
-    publications=site.data.publications
-    numbering=true
-%}
+{% include publications.html publications=site.data.publications numbering=true %}
+
 
 <h2>Honours and Awards</h2>
 <ul>
@@ -79,21 +77,21 @@ permalink: /cv/
 
 <h2>University Groups</h2>
 <ul>
-<li>ML Reading Group (Founder)</li>
-<li>Effective Altruism Group (Founder)</li>
-<li>Theory Group (Former Head)</li>
-<li>Programming Club (Former Head)</li>
-<li>Parliamentary Debate Team</li>
-<li>Student Magazine (Editor)</li>
+<li>ML Reading Group @IIIT-H (Founder)</li>
+<li>Effective Altruism Group @IIIT-H (Founder)</li>
+<li>Theory Group @IIIT-H (Former Admin)</li>
+<li>Programming Club @IIIT-H (Former Admin)</li>
+<li>Parliamentary Debate Team @IIIT-H</li>
+<li>Ping! Student Magazine @IIIT-H (Editor) </li>
 </ul>
 
-<h2>Trainer</h2>
+<!-- <h2>Trainer</h2>
 <ul>
 <li>Indian Team Selection for the International Olympiad of Informatics, 2020</li>
 <li>Panini Linguistics Olympiad, 2024</li>
-</ul>
+</ul> -->
 
-<h2>Talks</h2>
+<!-- <h2>Talks</h2>
 <ul>
 <li>How can we deal with Conflicting Training Signal in Deep Learning</li>
 <li>Intro to DL Research</li>
@@ -105,6 +103,6 @@ permalink: /cv/
 <li>Making Calibrated Predictions</li>
 <li>Population Ethics</li>
 <li>Linguistics Olympiad Training Workshops</li>
-</ul>
+</ul> -->
 
 *last updated: July 8, 2024*
