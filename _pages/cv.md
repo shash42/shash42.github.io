@@ -12,7 +12,7 @@ permalink: /cv/
 <h2>Education</h2>
 <div class="cvitem" style="padding-bottom:10px">
 <strong>PhD in Artificial Intelligence</strong>, 2024-present<br>
-<em>ELLIS Institute and Max Planck Institute for Intelligent Systems</em><br>
+<em>ELLIS Institute and Max Planck Institute for Intelligent Systems, Tübingen</em><br>
 <span class="small-caps">Advisors:</span> Jonas Geiping and Douwe Kiela<br>
 </div>
 
@@ -104,4 +104,4 @@ permalink: /cv/
 - Linguistics Olympiad Training Workshops
 </ul> -->
 
-*last updated: July 8, 2024*
+*last updated: July 23, 2024*
