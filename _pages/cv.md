@@ -11,6 +11,12 @@ permalink: /cv/
 
 <h2>Education</h2>
 <div class="cvitem">
+<strong>PhD in Artificial Intelligence</strong>, 2024-present<br>
+<em>ELLIS Institute and Max Planck Institute for Intelligent Systems</em>
+<span class="small-caps">Advisors:</span> Jonas Geiping and Douwe Kiela<br>
+</div>
+
+<div class="cvitem">
 <strong>B.Tech. and M.S. (by Research) in Computer Science Engineering</strong>, 2019–2024<br>
 <em>International Institute of Information Technology (IIIT), Hyderabad</em>
 <br>GPA: 9.60/10<br>
