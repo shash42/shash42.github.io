@@ -2,7 +2,7 @@
 <p>
     <strong><a href='{{include.paper_link}}'>{{include.title}}</a></strong><br>
     {% for auth in include.authors %}
-    {% if auth == "Shashwat Goel" %}<strong>{{auth}}</strong>{% else %}{{auth}}{% endif %}{% unless forloop.last %}, {% endunless %}
+    {% if auth contains "Shashwat Goel" %}<strong>{{auth}}</strong>{% else %}{{auth}}{% endif %}{% unless forloop.last %}, {% endunless %}
     {% endfor %}<br>
     <em>{{include.venue}}, {{include.date | date: '%Y' }}.</em><br>
     {% if include.links != "" and include.links != nil %}
