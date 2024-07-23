@@ -12,10 +12,10 @@ permalink: /cv/
 <h2>Education</h2>
 <div class="cvitem">
 <strong>PhD in Artificial Intelligence</strong>, 2024-present<br>
-<em>ELLIS Institute and Max Planck Institute for Intelligent Systems</em>
+<em>ELLIS Institute and Max Planck Institute for Intelligent Systems</em><br>
 <span class="small-caps">Advisors:</span> Jonas Geiping and Douwe Kiela<br>
 </div>
-
+<br>
 <div class="cvitem">
 <strong>B.Tech. and M.S. (by Research) in Computer Science Engineering</strong>, 2019–2024<br>
 <em>International Institute of Information Technology (IIIT), Hyderabad</em>
@@ -28,27 +28,27 @@ permalink: /cv/
 <strong>Researcher</strong>, Stanford Existential Risk Institute ML Alignment Theory Scholars (SERI MATS), July–Dec 2023<br>
 <span class="small-caps">Mentor:</span> Dan Hendrycks<br>
 </div>
-
+<br>
 <div class="cvitem">
 <strong>Quantitative Research Intern</strong>, Central Research Team, Millennium India, May–June 2023<br>
 <span class="small-caps">Project:</span> AutoML for Tree-based and linear ensembles to find alpha across datasets<br>
 </div>
-
+<br>
 <div class="cvitem">
 <strong>Research Intern</strong>, Social Choice Theory, LAMSADE, CNRS, May–July 2022<br>
 <span class="small-caps">Advisors:</span> Jerome Lang, Dominik Peters<br>
 </div>
-
+<br>
 <div class="cvitem">
 <strong>Research Assistant</strong>, Language Evolution, Santa Fe Institute, July–Sept 2021<br>
 <span class="small-caps">Mentor:</span> Tanmoy Chakroborty<br>
 </div>
-
+<br>
 <div class="cvitem">
 <strong>Developer</strong>, Distributed Computing Laboratory, Summer@EPFL, May–June 2021<br>
 <span class="small-caps">Mentors:</span> Matteo Monti, Rachid Guerraroui<br>
 </div>
-
+<br>
 <div class="cvitem">
 <strong>Research Developer</strong>, Apertium, Google Summer of Code, April–Aug 2020<br>
 <span class="small-caps">Mentors:</span> Mikel Forcada, Jorge Gracia<br>
