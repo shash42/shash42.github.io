@@ -11,7 +11,7 @@ permalink: /cv/
 
 <h2>Education</h2>
 <div class="cvitem">
-**B.Tech. and M.S. (by Research) in Computer Science Engineering**, 2019–2024<br>
+<strong>B.Tech. and M.S. (by Research) in Computer Science Engineering</strong>, 2019–2024<br>
 <em>International Institute of Information Technology (IIIT), Hyderabad</em>
 <br>GPA: 9.60/10<br>
 <span class="small-caps">Thesis:</span> New Frontiers for Machine Unlearning, advised by Prof. Ponnurangam K.<br>
@@ -19,32 +19,32 @@ permalink: /cv/
 
 <h2>Experience</h2>
 <div class="cvitem">
-**Researcher**, Stanford Existential Risk Institute ML Alignment Theory Scholars (SERI MATS), July–Dec 2023<br>
+<strong>Researcher</strong>, Stanford Existential Risk Institute ML Alignment Theory Scholars (SERI MATS), July–Dec 2023<br>
 <span class="small-caps">Mentor:</span> Dan Hendrycks<br>
 </div>
 
 <div class="cvitem">
-**Quantitative Research Intern**, Central Research Team, Millennium India, May–June 2023<br>
+<strong>Quantitative Research Intern</strong>, Central Research Team, Millennium India, May–June 2023<br>
 <span class="small-caps">Project:</span> AutoML for Tree-based and linear ensembles to find alpha across datasets<br>
 </div>
 
 <div class="cvitem">
-**Research Intern**, Social Choice Theory, LAMSADE, CNRS, May–July 2022<br>
+<strong>Research Intern</strong>, Social Choice Theory, LAMSADE, CNRS, May–July 2022<br>
 <span class="small-caps">Advisors:</span> Jerome Lang, Dominik Peters<br>
 </div>
 
 <div class="cvitem">
-**Research Assistant**, Language Evolution, Santa Fe Institute, July–Sept 2021<br>
+<strong>Research Assistant</strong>, Language Evolution, Santa Fe Institute, July–Sept 2021<br>
 <span class="small-caps">Mentor:</span> Tanmoy Chakroborty<br>
 </div>
 
 <div class="cvitem">
-**Developer**, Distributed Computing Laboratory, Summer@EPFL, May–June 2021<br>
+<strong>Developer</strong>, Distributed Computing Laboratory, Summer@EPFL, May–June 2021<br>
 <span class="small-caps">Mentors:</span> Matteo Monti, Rachid Guerraroui<br>
 </div>
 
 <div class="cvitem">
-**Research Developer**, Apertium, Google Summer of Code, April–Aug 2020<br>
+<strong>Research Developer</strong>, Apertium, Google Summer of Code, April–Aug 2020<br>
 <span class="small-caps">Mentors:</span> Mikel Forcada, Jorge Gracia<br>
 </div>
 
