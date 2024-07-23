@@ -1,86 +1,101 @@
 ---
 layout: archive
-title: "CV"
+title: Curriculum Vitae
 permalink: /cv/
-author_profile: true
-redirect_from:
-  - /resume
 ---
 
-{% include base_path %}
+<a href="/assets/Shashwat-Goel-CV.pdf"><i class="fa-solid fa-file-pdf"></i> View PDF</a><br>
+<a href="https://shash42.github.io/"><i class="fa-solid fa-globe"></i> shash42.github.io</a><br>
+<a href="mailto:shashwatnow@gmail.com"><i class="fa-solid fa-envelope"></i> shashwatnow@gmail.com</a><br>
+<a href="https://github.com/shash42"><i class="fa-brands fa-github"></i> shash42</a>
 
-Education
-======
-* M.S. by Research in Computer Science, IIIT Hyderabad, 2021-24
+<h2>Education</h2>
+<div class="cvitem">
+**B.Tech. and M.S. (by Research) in Computer Science Engineering**, 2019–2024<br>
+<em>International Institute of Information Technology (IIIT), Hyderabad</em>
+<br>GPA: 9.60/10<br>
+<span class="small-caps">Thesis:</span> New Frontiers for Machine Unlearning, advised by Prof. Ponnurangam K.<br>
+</div>
 
-* B.Tech Computer Science, IIIT Hyderabad, 2019-23
+<h2>Experience</h2>
+<div class="cvitem">
+**Researcher**, Stanford Existential Risk Institute ML Alignment Theory Scholars (SERI MATS), July–Dec 2023<br>
+<span class="small-caps">Mentor:</span> Dan Hendrycks<br>
+</div>
 
-* Schooling, Delhi Public School R.K. Puram, 2005-19
+<div class="cvitem">
+**Quantitative Research Intern**, Central Research Team, Millennium India, May–June 2023<br>
+<span class="small-caps">Project:</span> AutoML for Tree-based and linear ensembles to find alpha across datasets<br>
+</div>
 
-<!-- * Ph.D in Version Control Theory, GitHub University, 2018 (expected) -->
+<div class="cvitem">
+**Research Intern**, Social Choice Theory, LAMSADE, CNRS, May–July 2022<br>
+<span class="small-caps">Advisors:</span> Jerome Lang, Dominik Peters<br>
+</div>
 
-Work experience
-======
-* July - December 2023: ML Alignment Theory Scholar
-  * Stanford Existential Risk Institute
-  * Worked on desgining metrics for deception and evaluating activation directions to steer Large Language Models.
-  * Mentor: Dan Hendrycks
+<div class="cvitem">
+**Research Assistant**, Language Evolution, Santa Fe Institute, July–Sept 2021<br>
+<span class="small-caps">Mentor:</span> Tanmoy Chakroborty<br>
+</div>
 
-* May - July 2023: Quantitative Research Intern
-  * Central Research Team India, Millennium
-  * Designed an AutoML pipeline for alpha generation.
+<div class="cvitem">
+**Developer**, Distributed Computing Laboratory, Summer@EPFL, May–June 2021<br>
+<span class="small-caps">Mentors:</span> Matteo Monti, Rachid Guerraroui<br>
+</div>
 
-* November - December 2022: ML Alignment Theory Trainee
-  * Stanford Existential Risk Institute
-  * Studied the Alignment 201 Curriculum, the Value Learning sequence and research on inducing a bias for minimizing side-effects in AI models.
-  * Mentors: Stuart Armstrong and Rebecca Gorman
+<div class="cvitem">
+**Research Developer**, Apertium, Google Summer of Code, April–Aug 2020<br>
+<span class="small-caps">Mentors:</span> Mikel Forcada, Jorge Gracia<br>
+</div>
 
-* May - July 2022: Research Intern
-  * LAMSADE, CNRS
-  * Research on sequential decision making rules that represent preferences of inferred groups proportionally.
-  * Mentors: Jérôme Lang and Dominik Peters
+<h2>Publications</h2>
+{% include publications.html publications=site.data.publications numbering=true %}
 
-* March - September 2021: Research Assistant
-  * Santa Fe Institute
-  * Analyzed semantic evolution as random walks on a multilingual colexification network
-  * Mentor: Tanmoy Bhattacharya
 
-* April 2020 - February 2021: Developer, Researcher
-  * Apertium, Google Summer of Code
-  * Research on finding new dictionary translations as link prediction on Graphs. Designed new metrics and improved algorithms. 
-  * Mentors: Mikel Forcada, Jorge Gracia
-  
-<!-- Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3 -->
+<h2>Honours and Awards</h2>
+- Outstanding Paper Award (Top 3/12,000+), AAAI Conference in Vancouver, Canada, 2024
+- Outstanding Reviewer (Top 10%): ICML 2022, ICLR DMLR Workshop 2024
+- Finalist (Top 50/3000+), ACM-ICPC Indian Regionals, 2020
+- Honorable Mention, International Olympiad of Linguistics, 2019
+- National Rank 6, International Olympiad of Informatics Indian Team Selection, 2019
+- Grand Prize Winner (1/1500+), NASA Ames Space Settlement Design Contest, 2017
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-* Teaching Assistant, Automata Theory, IIIT Hyderabad, Monsoon 2022.
-* Teaching Assistant, Topics in Deep Learning: Graph Neural Networks, IIIT Hyderabad, Spring 2023.
-* Facilitator, AI Safety Fundamentals, Spring 2023.
-  <!-- <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
-  
-Service and leadership
-======
-* Outstanding Reviewer (Top 10%), ICML 2022.
-* Reviewer for CoLLAs 2023.
+<h2>Teaching Experience</h2>
+- Head Teaching Assistant, Responsible and Safe AI, IIIT Hyderabad, Spring 2024
+- Facilitator, AI Safety Fundamentals, BlueDot Impact, Spring 2023
+- Teaching Assistant, Topics in DL (Graph Neural Networks), IIIT Hyderabad, Spring 2023
+- Teaching Assistant, Automata Theory, IIIT Hyderabad, Fall 2022
+
+<h2>Academic Service and Outreach</h2>
+- Reviewer: CoLLAs 2024, ICLR DMLR Workshop 2024, AISTATS 2024, CoLLAs 2023, CODS-COMAD 2023, ICML 2022
+- Trainer, Indian Team Selection for the International Olympiad of Informatics (IOI) 2020
+
+<h2>University Groups</h2>
+- ML Reading Group @IIIT-H (Founder)
+- Effective Altruism Group @IIIT-H (Founder)
+- Theory Group @IIIT-H (Former Admin)
+- Programming Club @IIIT-H (Former Admin)
+- Parliamentary Debate Team @IIIT-H
+- Ping! Student Magazine @IIIT-H (Editor) 
+
+<!-- <h2>Trainer</h2>
+<ul>
+- Indian Team Selection for the International Olympiad of Informatics, 2020
+- Panini Linguistics Olympiad, 2024
+</ul> -->
+
+<!-- <h2>Talks</h2>
+<ul>
+- How can we deal with Conflicting Training Signal in Deep Learning
+- Intro to DL Research
+- Pathways from Cognition to DL Research
+- Voting Rules and Fair Representation
+- Perfect Information Sequential Games
+- Graph Theory for high-schoolers
+- Intro to Effective Altruism
+- Making Calibrated Predictions
+- Population Ethics
+- Linguistics Olympiad Training Workshops
+</ul> -->
+
+*last updated: July 8, 2024*
