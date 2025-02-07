@@ -1,3 +1,23 @@
+- title: 'Great Models Think Alike and this Undermines AI Oversight'
+  authors:
+    - Shashwat Goel
+    - Joschka Strüber
+    - Ilze Amanda Auzina
+    - Karuna Chandra
+    - P. Kumaraguru
+    - Douwe Kiela
+    - Ameya Prabhu
+    - Matthias Bethge
+    - Jonas Geiping
+  venue: 'ArXiv preprint'
+  date: 2025-02-06
+  paper_link: https://arxiv.org/abs/2502.04313
+  links: 
+    code: https://github.com/model-similarity/lm-similarity
+    tool: https://huggingface.co/spaces/bethgelab/lm-similarity
+    data: https://huggingface.co/datasets/bethgelab/lm-similarity
+  type: paper
+
 - title: 'Corrective Machine Unlearning'
   authors:
     - Shashwat Goel*
@@ -84,47 +104,47 @@
     code: https://github.com/shash42/Evaluating-Inexact-Unlearning
   type: paper
 
-- title: 'Low Impact Agency: Review and Discussion'
-  authors:
-    - Danilo Naiff
-    - Shashwat Goel
-  venue: 'ArXiv'
-  date: 2022-01-01
-  paper_link: https://arxiv.org/abs/2303.03139
-  links: 
-  type: paper
+# - title: 'Low Impact Agency: Review and Discussion'
+#   authors:
+#     - Danilo Naiff
+#     - Shashwat Goel
+#   venue: 'ArXiv'
+#   date: 2022-01-01
+#   paper_link: https://arxiv.org/abs/2303.03139
+#   links: 
+#   type: paper
 
-- title: 'Modelling and Optimizing the Allocation of COVID-19 Swabs to Labs'
-  authors:
-    - Nikhil Chandak
-    - Shashwat Goel
-    - Kunal Jain
-    - Arpan Dasgupta
-  venue: 'Student Abstract at 18th Mixed Integer Programming Workshop<br>Winner, Covid-19 Swabs2Labs Hackathon by Ministry of Health Karnataka'
-  date: 2021-01-02
-  paper_link: https://github.com/shash42/cnihack/blob/master/Report.pdf
-  links: 
-    code: https://github.com/shash42/cnihack
-  type: technical report
+# - title: 'Modelling and Optimizing the Allocation of COVID-19 Swabs to Labs'
+#   authors:
+#     - Nikhil Chandak
+#     - Shashwat Goel
+#     - Kunal Jain
+#     - Arpan Dasgupta
+#   venue: 'Student Abstract at 18th Mixed Integer Programming Workshop<br>Winner, Covid-19 Swabs2Labs Hackathon by Ministry of Health Karnataka'
+#   date: 2021-01-02
+#   paper_link: https://github.com/shash42/cnihack/blob/master/Report.pdf
+#   links: 
+#     code: https://github.com/shash42/cnihack
+#   type: technical report
 
-- title: 'Bilingual Dictionary Generation and Enrichment via Graph Exploration'
-  authors:
-    - Shashwat Goel
-    - Jorge Gracia
-    - Mikel L. Forcada
-  venue: 'Special Issue on Latest Advancements in Linguistic Linked Data<br>Semantic Web Journal'
-  date: 2022-01-02
-  paper_link: https://content.iospress.com/articles/semantic-web/sw222899 
-  links: 
-    code: https://github.com/shash42/ApertiumBidixGen
-  type: paper
+# - title: 'Bilingual Dictionary Generation and Enrichment via Graph Exploration'
+#   authors:
+#     - Shashwat Goel
+#     - Jorge Gracia
+#     - Mikel L. Forcada
+#   venue: 'Special Issue on Latest Advancements in Linguistic Linked Data<br>Semantic Web Journal'
+#   date: 2022-01-02
+#   paper_link: https://content.iospress.com/articles/semantic-web/sw222899 
+#   links: 
+#     code: https://github.com/shash42/ApertiumBidixGen
+#   type: paper
 
-- title: 'From Pivots to Graphs: Augmented Cycle Density as a generalization to One Time Inverse Consultation'
-  authors:
-    - Shashwat Goel
-    - Kunwar Shanjeet Grover
-  venue: '4th Shared Task on Translation Inference Across Dictionaries<br>3rd Conference on Language, Data and Knowledge'
-  date: 2021-01-01
-  paper_link: https://arxiv.org/abs/2108.12459 
-  links: 
-  type: paper
+# - title: 'From Pivots to Graphs: Augmented Cycle Density as a generalization to One Time Inverse Consultation'
+#   authors:
+#     - Shashwat Goel
+#     - Kunwar Shanjeet Grover
+#   venue: '4th Shared Task on Translation Inference Across Dictionaries<br>3rd Conference on Language, Data and Knowledge'
+#   date: 2021-01-01
+#   paper_link: https://arxiv.org/abs/2108.12459 
+#   links: 
+#   type: paper

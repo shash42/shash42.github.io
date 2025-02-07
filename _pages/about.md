@@ -8,8 +8,8 @@ redirect_from:
   - /about.html
 ---
 
-I am an AI researcher, currently co-advised by [Jonas Geiping](https://jonasgeiping.github.io/) and [Douwe Kiela](https://douwekiela.github.io/) through the ELLIS PhD program. I am interested in how to make ML systems learn when humans can't provide unambgious ground-truth: whether it be handling conflicting preferences, asking information-seeking questions, or solving novel problems. Feel free to get in touch if you want to chat about ideas! I'm excited about:
-- The science of pretraining task design, data, and evaluations
+I am an AI researcher, currently co-advised by [Jonas Geiping](https://jonasgeiping.github.io/) and [Douwe Kiela](https://douwekiela.github.io/) through the ELLIS PhD program. I am interested in making ML systems learn when humans can't provide unambgious ground-truth: whether it be handling conflicting preferences, asking information-seeking questions, or solving novel problems. I like getting email, so [reach out](mailto:shashwatnow@gmail.com)! I'm excited about:
+- Evaluations and Post-training data
 - Enabling iterative improvement of ML models
 - Using AI to democratize education and research
 
