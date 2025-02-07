@@ -18,6 +18,19 @@
     data: https://huggingface.co/datasets/bethgelab/lm-similarity
   type: paper
 
+- title: 'Proportional Aggregation of Preferences for Sequential Decision Making'
+  authors:
+    - Nikhil Chandak
+    - Shashwat Goel
+    - Dominik Peters
+  venue: 'Outstanding Paper Award (top 3 out of 12,000+ submissions) at 38th Annual Conference of the Association for the Advancement of Artificial Intelligence (AAAI)'
+  date: 2024-01-01
+  paper_link: https://arxiv.org/abs/2306.14858 
+  links: 
+    twitter: https://x.com/ShashwatGoel7/status/1760776191139582409 
+    talk: https://www.youtube.com/watch?v=kjZG89iDzuU
+  type: paper
+  
 - title: 'Corrective Machine Unlearning'
   authors:
     - Shashwat Goel*
@@ -49,19 +62,6 @@
   type: paper
   # description: >
   #   We introduce unlearning dual-use knowledge from LLMs as a post-training safety intervention. We release an MCQ benchmark for measuring hazardous knowledge related to the design of bioweapons, cyberattacks, and chemical weapons. We propose RMU, an activation space unlearning method that reduces hazardous knowledge while maintaining overall LLM performance. I designed evaluations and implemented baselines for this project, being involved in ideation from start to finish.
-
-- title: 'Proportional Aggregation of Preferences for Sequential Decision Making'
-  authors:
-    - Nikhil Chandak
-    - Shashwat Goel
-    - Dominik Peters
-  venue: '38th Annual Conference of the Association for the Advancement of Artificial Intelligence (AAAI) <br>Outstanding Paper Award (top 3 out of 12,000+ submissions)'
-  date: 2024-01-01
-  paper_link: https://arxiv.org/abs/2306.14858 
-  links: 
-    twitter: https://x.com/ShashwatGoel7/status/1760776191139582409 
-    talk: https://www.youtube.com/watch?v=kjZG89iDzuU
-  type: paper
 
 
 - title: 'Representation Engineering: A Top-Down Approach to AI Transparency'

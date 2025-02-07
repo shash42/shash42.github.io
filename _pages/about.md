@@ -18,7 +18,7 @@ I am an AI researcher, currently co-advised by [Jonas Geiping](https://jonasgeip
 {% include news.html news=news %}
 
 
-<h3>Publications</h3>
+<h3>SelectedPublications</h3>
 {% include publications.html
     publications=site.data.publications
     numbering=false
