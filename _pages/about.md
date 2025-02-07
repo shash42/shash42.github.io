@@ -13,12 +13,12 @@ I am an AI researcher, currently co-advised by [Jonas Geiping](https://jonasgeip
 - Enabling iterative improvement of ML models
 - Using AI to democratize education and research
 
-<h3>News</h3>
+<h2>News</h2>
 {% assign news = site.data.news | where: "hidden", nil | sort: 'date' | reverse | slice: 0, 7 %}
 {% include news.html news=news %}
 
 
-<h3>SelectedPublications</h3>
+<h2>Selected Publications</h2>
 {% include publications.html
     publications=site.data.publications
     numbering=false
