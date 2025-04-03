@@ -1,3 +1,20 @@
+- title: 'Can Language Models Falsify? Evaluating Algorithmic Reasoning with Counterexample Creation'
+  authors:
+    - Shiven Sinha
+    - Shashwat Goel
+    - Ponnurangam Kumaraguru
+    - Jonas Geiping
+    - Matthias Bethge
+    - Ameya Prabhu
+  venue: 'ICLR Scaling Self Improving Foundation Models Workshop'
+  date: 2025-02-26
+  paper_link: https://arxiv.org/abs/2502.19414
+  links: 
+    webpage: https://falsifiers.github.io
+    code: https://github.com/falsifiers/REFUTE
+    data: https://huggingface.co/datasets/bethgelab/REFUTE
+  type: paper
+
 - title: 'Great Models Think Alike and this Undermines AI Oversight'
   authors:
     - Shashwat Goel
@@ -9,7 +26,7 @@
     - Ameya Prabhu
     - Matthias Bethge
     - Jonas Geiping
-  venue: 'ArXiv preprint'
+  venue: 'ICLR Scaling Self Improving Foundation Models Workshop'
   date: 2025-02-06
   paper_link: https://arxiv.org/abs/2502.04313
   links: 
