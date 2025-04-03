@@ -12,7 +12,7 @@ permalink: /cv/
 <h2>Education</h2>
 <div class="cvitem" style="padding-bottom:10px">
 <strong>PhD in Artificial Intelligence</strong>, 2024-present<br>
-<em>ELLIS Institute and Max Planck Institute for Intelligent Systems, Tübingen</em><br>
+<em>ELLIS, Max Planck Institute for Intelligent Systems, Tübingen</em><br>
 <span class="small-caps">Advisors:</span> Jonas Geiping and Douwe Kiela<br>
 </div>
 
@@ -24,6 +24,12 @@ permalink: /cv/
 </div>
 
 <h2>Experience</h2>
+
+<div class="cvitem" style="padding-bottom:10px">
+<strong>(Incoming) Research Scientist Intern</strong>, Meta GenAI, London, June 2025 - October 2025<br>
+<span class="small-caps">Project:</span> Scalable Oversight <br>
+</div>
+
 <div class="cvitem" style="padding-bottom:10px">
 <strong>Researcher</strong>, Stanford Existential Risk Institute ML Alignment Theory Scholars (SERI MATS), July–Dec 2023<br>
 <span class="small-caps">Mentor:</span> Dan Hendrycks<br>
