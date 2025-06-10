@@ -1,18 +1,37 @@
-- title: 'Can Language Models Falsify? Evaluating Algorithmic Reasoning with Counterexample Creation'
+
+- title: 'Answer Matching Outperforms Multiple Choice for Language Model Evaluations'
   authors:
-    - Shiven Sinha
-    - Shashwat Goel
-    - Ponnurangam Kumaraguru
-    - Jonas Geiping
-    - Matthias Bethge
+    - Nikhil Chandak*
+    - Shashwat Goel*
     - Ameya Prabhu
-  venue: 'ICLR Scaling Self Improving Foundation Models Workshop'
-  date: 2025-02-26
-  paper_link: https://arxiv.org/abs/2502.19414
-  links: 
-    webpage: https://falsifiers.github.io
-    code: https://github.com/falsifiers/REFUTE
-    data: https://huggingface.co/datasets/bethgelab/REFUTE
+    - Moritz Hardt
+    - Jonas Geiping
+  venue: 'ICML Workshop on Assessing World Models'
+  date: 2025-06-11
+  type: paper
+
+- title: 'Pitfalls in Evaluating Language Model Forecasters'
+  authors:
+    - Daniel Paleka*
+    - Shashwat Goel*
+    - Jonas Geiping
+    - Florian Tramèr
+  venue: 'ICML Workshop on Assessing World Models'
+  date: 2025-06-11
+  paper_link: https://arxiv.org/abs/2506.00723
+  type: paper
+
+- title: 'Measuring Belief Updates in Curious Agents'
+  authors:
+    - Joschka Strüber
+    - Ilze Amanda Auzina
+    - Shashwat Goel
+    - Susanne Keller
+    - Jonas Geiping
+    - Ameya Prabhu
+    - Matthias Bethge
+  venue: 'ICML Workshop on Assessing World Models'
+  date: 2025-06-11
   type: paper
 
 - title: 'Great Models Think Alike and this Undermines AI Oversight'
@@ -26,13 +45,30 @@
     - Ameya Prabhu
     - Matthias Bethge
     - Jonas Geiping
-  venue: 'ICLR Scaling Self Improving Foundation Models Workshop'
+  venue: '(Spotlight) ICML 2025'
   date: 2025-02-06
   paper_link: https://arxiv.org/abs/2502.04313
   links: 
     code: https://github.com/model-similarity/lm-similarity
     tool: https://huggingface.co/spaces/bethgelab/lm-similarity
     data: https://huggingface.co/datasets/bethgelab/lm-similarity
+  type: paper
+
+- title: 'Can Language Models Falsify? Evaluating Algorithmic Reasoning with Counterexample Creation'
+  authors:
+    - Shiven Sinha
+    - Shashwat Goel
+    - Ponnurangam Kumaraguru
+    - Jonas Geiping
+    - Matthias Bethge
+    - Ameya Prabhu
+  venue: '(Oral) ICLR Scaling Self Improving Foundation Models Workshop'
+  date: 2025-02-26
+  paper_link: https://arxiv.org/abs/2502.19414
+  links: 
+    webpage: https://falsifiers.github.io
+    code: https://github.com/falsifiers/REFUTE
+    data: https://huggingface.co/datasets/bethgelab/REFUTE
   type: paper
 
 - title: 'Proportional Aggregation of Preferences for Sequential Decision Making'

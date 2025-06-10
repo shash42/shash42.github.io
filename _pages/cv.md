@@ -13,6 +13,7 @@ permalink: /cv/
 <div class="cvitem" style="padding-bottom:10px">
 <strong>PhD in Artificial Intelligence</strong>, 2024-present<br>
 <em>ELLIS, Max Planck Institute for Intelligent Systems, Tübingen</em><br>
+<strong> Topic: Scaling Supervision for AI </strong>
 <span class="small-caps">Advisors:</span> Jonas Geiping and Douwe Kiela<br>
 </div>
 
@@ -62,10 +63,10 @@ permalink: /cv/
 
 <h2>Publications</h2>
 {% include publications.html publications=site.data.publications numbering=true %}
-
+* denotes equal contribution.
 
 <h2>Honours and Awards</h2>
-- Outstanding Paper Award (Top 3/12,000+), AAAI Conference in Vancouver, Canada, 2024
+- Outstanding Paper Award (Top 3/12,000+), AAAI 2024
 - Outstanding Reviewer (Top 10%): ICML 2022, ICLR DMLR Workshop 2024
 - Finalist (Top 50/3000+), ACM-ICPC Indian Regionals, 2020
 - Honorable Mention, International Olympiad of Linguistics, 2019

@@ -26,11 +26,16 @@
 - item: <a href="https://arxiv.org/abs/2402.14015">Corrective Machine Unlearning</a> accepted at TMLR
   date: 2024-10-13
 
-- item: <a href="https://arxiv.org/abs/2502.04313">Great Models Think Alike and this Undermines AI Oversight</a> accepted at ICLR SSI-FM Workshop
-  date: 2025-02-06
+# - item: <a href="https://arxiv.org/abs/2502.04313">Great Models Think Alike and this Undermines AI Oversight</a> accepted at ICLR SSI-FM Workshop
+#   date: 2025-02-06
 
 - item: <a href="https://arxiv.org/abs/2502.19414">Can Language Models Falsify?</a> selected for Oral Presentation at ICLR-SSI FM Workshop
   date: 2025-02-26
 
 - item: Starting as a Research Scientist intern at Meta GenAI London
   date: 2025-06-23
+
+- item: Will present 5 works from the first year of my PhD at ICML 2025. 
+  - 2 accepted in main track--Great Models Think Alike and this Undermines AI Oversight (Spotlight), Corrective Unlearning for GNNs. 
+  - 3 accepted at the Assessing World Models Workshop--Measuring Belief Updates in Curious Agents (Workshop), Evaluating Forecasting is more difficult than other LLM Evaluations, Eliminating Discriminative Shortcuts in Multiple Choice Evaluations with Answer Matching.
+  date: 2025-07-13
