@@ -8,14 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am an AI researcher, currently co-advised by [Jonas Geiping](https://jonasgeiping.github.io/) and [Douwe Kiela](https://douwekiela.github.io/) through the ELLIS PhD program. I am interested in novel ways to scale **supervision** for models, to make them more *useful* and *safe*.  I believe any capability that can be measured can be optimized. Thus my work focuses on evaluating capabilities beyond knowledge recall. The hope is that these evals allow models to learn from scalable, yet grounded rewards in open-ended, long-horizon settings. Currently, I'm interested in AI capabilities that can accelerate research productivity:
-- Reasoning: making decisions under conflicting evidence or uncertainty
-- Curiosity: seeking information by asking the right questions
-- Falsifying: identifying mistakes in claims, hypotheses, solutions
-- Novelty: coming up with creative solutions to challenging problems
-- Collaboration: increasing productivity by making agents better at collaborating with humans
+I am an AI researcher, currently co-advised by [Jonas Geiping](https://jonasgeiping.github.io/) and [Douwe Kiela](https://douwekiela.github.io/) through the ELLIS PhD program. I want to find novel ways to scale **supervision** for models, to make them more *useful* and *safe*.  I believe any capability that can be measured can be optimized. Thus my work focuses on evaluating model capabilities beyond knowledge. Currently, I'm working on tasks which require inductive reasoning to plan under uncertainty, asking better questions, and long-horizon execution.
 
-[See this blog](https://shash42.substack.com/p/counting-down-capabilities-to-agi) for research I'm excited to see towards building generally intelligent agents. If you're interested in any of these problems, [reach out](mailto:shashwatnow@gmail.com), I like getting E-Mails!
+[See this blog](https://shash42.substack.com/p/counting-down-capabilities-to-agi) for research I'm excited to work on towards building generally intelligent agents. If you're interested in any of these problems, [reach out](mailto:shashwatnow@gmail.com), I like getting E-Mails!
 
 <h2>News</h2>
 {% assign news = site.data.news | where: "hidden", nil | sort: 'date' | reverse | slice: 0, 7 %}

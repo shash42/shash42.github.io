@@ -1,21 +1,21 @@
 
-- item: Our paper on using interpretability to understand why Language Model's struggle with negation accepted at the ACL RepL4NLP workshop 2023 
-  date: 2023-07-09
+# - item: Our paper on using interpretability to understand why Language Model's struggle with negation accepted at the ACL RepL4NLP workshop 2023 
+#   date: 2023-07-09
 
-- item: Completed my time at Millennium Management as the first Quantitative Research intern in India, where I worked on AutoML for trading.
-  date: 2023-07-23
+- item: First Quantitative Research Intern in India at Millennium (American Hedge Fund). Worked on AutoML for trading.
+  date: 2023-06-01
 
-- item: Granted funding to continue my work with the Center for AI Safety through the SERI MATS program, after my 2 month research visit at Berkeley, California 
-  date: 2023-09-01
+- item: Completed the SERI MATS program (and extension), contributing to the Centre for AI Safety (RepE, WMDP). 
+  date: 2023-12-01
 
 - item: <b>Outstanding Paper Award at AAAI 2024</b> for our paper <a href="https://arxiv.org/abs/2306.14858">Proportional Aggregation of Preferences for Sequential Decision Making</a>
   date: 2024-02-23
   
-- item: Recognized as an Exceptional Reviewer at the ICLR Data-Centric ML Workshop
-  date: 2024-04-10
+# - item: Recognized as an Exceptional Reviewer at the ICLR Data-Centric ML Workshop
+#   date: 2024-04-10
 
-- item: <a href="https://arxiv.org/abs/2403.03218">The WMDP Benchmark:Measuring and Reducing Malicious with Unlearning</a> accepted at ICML 2024
-  date: 2024-05-01
+# - item: <a href="https://arxiv.org/abs/2403.03218">The WMDP Benchmark:Measuring and Reducing Malicious with Unlearning</a> accepted at ICML 2024
+#   date: 2024-05-01
 
 - item: Defended my masters thesis on <em>New Frontiers for Machine Unlearning</em> at IIIT Hyderabad
   date: 2024-05-24
@@ -23,20 +23,18 @@
 - item: Starting a PhD in Tübingen (Germany), co-advised by Jonas Geiping (ELLIS, MPI-IS) and Douwe Kiela (Contextual AI, Stanford)
   date: 2024-09-02
 
-- item: <a href="https://arxiv.org/abs/2402.14015">Corrective Machine Unlearning</a> accepted at TMLR
-  date: 2024-10-13
+# - item: <a href="https://arxiv.org/abs/2402.14015">Corrective Machine Unlearning</a> accepted at TMLR
+#   date: 2024-10-13
 
 # - item: <a href="https://arxiv.org/abs/2502.04313">Great Models Think Alike and this Undermines AI Oversight</a> accepted at ICLR SSI-FM Workshop
 #   date: 2025-02-06
 
-- item: <a href="https://arxiv.org/abs/2502.19414">Can Language Models Falsify?</a> selected for Oral Presentation at ICLR-SSI FM Workshop
-  date: 2025-02-26
+# - item: <a href="https://arxiv.org/abs/2502.19414">Can Language Models Falsify?</a> selected for Oral Presentation at ICLR-SSI FM Workshop
+#   date: 2025-02-26
 
-- item: Starting as a Research Scientist intern at Meta GenAI London
+- item: Started as a Research Scientist intern at Meta GenAI London
   date: 2025-06-23
 
 - item: |
-    Presenting 5 works at ICML 2025, checkpointing the first year of my PhD. Happy to chat!<br>
-    <b>Main Track:</b> Great Models Think Alike and this Undermines AI Oversight (Spotlight), Corrective Unlearning in GNNs.<br>
-    <b>Assessing World Models Workshop:</b> Measuring Belief Updates in Curious Agents, Pitfalls in Evaluating Language Model Forecasters, Answer Matching Outperforms Multiple Choice for Language Model Evaluations.
+    Presenting 5 projects (1 spotlight, 1 workshop oral) at ICML 2025<br>
   date: 2025-07-13

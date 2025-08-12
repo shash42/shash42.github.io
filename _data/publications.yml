@@ -1,39 +1,3 @@
-
-- title: 'Answer Matching Outperforms Multiple Choice for Language Model Evaluations'
-  authors:
-    - Nikhil Chandak*
-    - Shashwat Goel*
-    - Ameya Prabhu
-    - Moritz Hardt
-    - Jonas Geiping
-  venue: 'ICML Workshop on Assessing World Models'
-  date: 2025-06-11
-  type: paper
-
-- title: 'Pitfalls in Evaluating Language Model Forecasters'
-  authors:
-    - Daniel Paleka*
-    - Shashwat Goel*
-    - Jonas Geiping
-    - Florian Tramèr
-  venue: 'ICML Workshop on Assessing World Models'
-  date: 2025-06-11
-  paper_link: https://arxiv.org/abs/2506.00723
-  type: paper
-
-- title: 'Measuring Belief Updates in Curious Agents'
-  authors:
-    - Joschka Strüber
-    - Ilze Amanda Auzina
-    - Shashwat Goel
-    - Susanne Keller
-    - Jonas Geiping
-    - Ameya Prabhu
-    - Matthias Bethge
-  venue: 'ICML Workshop on Assessing World Models'
-  date: 2025-06-11
-  type: paper
-
 - title: 'Great Models Think Alike and this Undermines AI Oversight'
   authors:
     - Shashwat Goel
@@ -62,7 +26,7 @@
     - Jonas Geiping
     - Matthias Bethge
     - Ameya Prabhu
-  venue: '(Oral) ICLR Scaling Self Improving Foundation Models Workshop'
+  venue: '(Oral) ICLR Scaling Self Improving Models Workshop, COLM'
   date: 2025-02-26
   paper_link: https://arxiv.org/abs/2502.19414
   links: 
@@ -71,41 +35,59 @@
     data: https://huggingface.co/datasets/bethgelab/REFUTE
   type: paper
 
+- title: 'Measuring Belief Updates in Curious Agents'
+  authors:
+    - Joschka Strüber
+    - Ilze Amanda Auzina
+    - Shashwat Goel
+    - Susanne Keller
+    - Jonas Geiping
+    - Ameya Prabhu
+    - Matthias Bethge
+  venue: '(Oral) ICML Assessing World Models Workshop'
+  date: 2025-06-11
+  type: paper
+
+- title: 'Pitfalls in Evaluating Language Model Forecasters'
+  authors:
+    - Daniel Paleka*
+    - Shashwat Goel*
+    - Jonas Geiping
+    - Florian Tramèr
+  venue: 'ICML Assessing World Models Workshop'
+  date: 2025-06-11
+  paper_link: https://arxiv.org/abs/2506.00723
+  type: paper
+
+- title: 'Answer Matching Outperforms Multiple Choice for Language Model Evaluations'
+  authors:
+    - Nikhil Chandak*
+    - Shashwat Goel*
+    - Ameya Prabhu
+    - Moritz Hardt
+    - Jonas Geiping
+  venue: 'ICML Assessing World Models Workshop'
+  date: 2025-06-11
+  type: paper
+
 - title: 'Proportional Aggregation of Preferences for Sequential Decision Making'
   authors:
     - Nikhil Chandak
     - Shashwat Goel
     - Dominik Peters
-  venue: 'Outstanding Paper Award (top 3 out of 12,000+ submissions) at 38th Annual Conference of the Association for the Advancement of Artificial Intelligence (AAAI)'
+  venue: '(Outstanding Paper Award) AAAI'
   date: 2024-01-01
   paper_link: https://arxiv.org/abs/2306.14858 
   links: 
     twitter: https://x.com/ShashwatGoel7/status/1760776191139582409 
     talk: https://www.youtube.com/watch?v=kjZG89iDzuU
   type: paper
-  
-- title: 'Corrective Machine Unlearning'
-  authors:
-    - Shashwat Goel*
-    - Ameya Prabhu*
-    - Philip Torr
-    - P. Kumaraguru
-    - Amartya Sanyal
-  venue: 'Transactions on Machine Learning Research (TMLR) 2024 <br> Workshop on Data-centric Machine Learning (DMLR) - Recommended for Journal (Top 15) at the 12th International Conference on Representation Learning (ICLR)'
-  date: 2024-01-03
-  paper_link: https://arxiv.org/abs/2402.14015
-  links: 
-    twitter: https://x.com/ShashwatGoel7/status/1760911396034793831
-    code: https://github.com/drimpossible/corrective-unlearning-bench
-  type: paper
-  # description: >
-  #   We highlight key distinctions between the application of unlearning to privacy vs removing manipulated or incorrect training data, and we call the latter "Corrective Unlearning". Specifically, the deletion set is not provided by user requests, and model developers may only identify a subset of manipulated samples whose influence is to be deleted. "Retraining on the retain set from scratch'', previously considered a theoretical gold standard, becomes insufficient when the entire manipulated set is not known, re-inforcing the adverse effect of retained manipulated samples. State of the art unlearning procedures aim to approximate this gold standard, leading to existing methods performing poorly when even upto 80\% poisoned samples are identified. We find evidence that corrective unlearning is tractibile, but there is a need for unlearning methods that can handle arbitrary manipulations. 
 
 - title: 'The WMDP Benchmark: Measuring and Reducing Malicious Use with Unlearning'
   authors:
     - Center for AI Safety
     - Scale AI
-  venue: 'International Conference on Machine Learning (ICML)'
+  venue: 'ICML'
   date: 2024-01-02
   paper_link: https://arxiv.org/abs/2403.03218
   links: 
@@ -129,33 +111,51 @@
     code: https://github.com/andyzoujm/representation-engineering
   type: paper
 
-- title: 'Probing Negation in Language Models'
-  authors:
-    - Shashwat Singh*
-    - Shashwat Goel*
-    - Saujas Vaduguru
-    - Ponnurangam Kumaraguru
-  venue: '8th Workshop on Representation Learning for NLP (RepL4NLP) <br>61st Annual Meeting of the Association for Computational Linguistics (ACL)'
-  date: 2023-01-02
-  paper_link: https://shash42.github.io/files/negation.pdf
-  links: 
-    code: https://github.com/shashwat1002/negation_new 
-  type: paper
-
-- title: 'Towards Adversarial Evaluations of Inexact Machine Unlearning'
+- title: 'Corrective Machine Unlearning'
   authors:
     - Shashwat Goel*
     - Ameya Prabhu*
+    - Philip Torr
+    - P. Kumaraguru
     - Amartya Sanyal
-    - Ser-Nam Lim
-    - Phillip Torr
-    - Ponnurangam Kumaraguru
-  venue: 'ArXiv'
-  date: 2023-01-01
-  paper_link: https://arxiv.org/abs/2201.06640 
+  venue: 'TMLR'
+  date: 2024-01-03
+  paper_link: https://arxiv.org/abs/2402.14015
   links: 
-    code: https://github.com/shash42/Evaluating-Inexact-Unlearning
+    twitter: https://x.com/ShashwatGoel7/status/1760911396034793831
+    code: https://github.com/drimpossible/corrective-unlearning-bench
   type: paper
+  # description: >
+  #   We highlight key distinctions between the application of unlearning to privacy vs removing manipulated or incorrect training data, and we call the latter "Corrective Unlearning". Specifically, the deletion set is not provided by user requests, and model developers may only identify a subset of manipulated samples whose influence is to be deleted. "Retraining on the retain set from scratch'', previously considered a theoretical gold standard, becomes insufficient when the entire manipulated set is not known, re-inforcing the adverse effect of retained manipulated samples. State of the art unlearning procedures aim to approximate this gold standard, leading to existing methods performing poorly when even upto 80\% poisoned samples are identified. We find evidence that corrective unlearning is tractibile, but there is a need for unlearning methods that can handle arbitrary manipulations. 
+
+
+# - title: 'Probing Negation in Language Models'
+#   authors:
+#     - Shashwat Singh*
+#     - Shashwat Goel*
+#     - Saujas Vaduguru
+#     - Ponnurangam Kumaraguru
+#   venue: '8th Workshop on Representation Learning for NLP (RepL4NLP) <br>61st Annual Meeting of the Association for Computational Linguistics (ACL)'
+#   date: 2023-01-02
+#   paper_link: https://shash42.github.io/files/negation.pdf
+#   links: 
+#     code: https://github.com/shashwat1002/negation_new 
+#   type: paper
+
+# - title: 'Towards Adversarial Evaluations of Inexact Machine Unlearning'
+#   authors:
+#     - Shashwat Goel*
+#     - Ameya Prabhu*
+#     - Amartya Sanyal
+#     - Ser-Nam Lim
+#     - Phillip Torr
+#     - Ponnurangam Kumaraguru
+#   venue: 'ArXiv'
+#   date: 2023-01-01
+#   paper_link: https://arxiv.org/abs/2201.06640 
+#   links: 
+#     code: https://github.com/shash42/Evaluating-Inexact-Unlearning
+#   type: paper
 
 # - title: 'Low Impact Agency: Review and Discussion'
 #   authors:
