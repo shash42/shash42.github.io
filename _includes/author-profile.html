@@ -20,8 +20,15 @@
       </div>
 
       <div class="author__urls-wrapper">
-            <button class="btn btn--inverse">Follow</button>
+            <div id="mobile-nav-toggle" class="btn btn--inverse" style="cursor:pointer;"><i class="fas fa-bars"></i>
+            </div>
             <ul class="author__urls social-icons">
+                  <li class="author__desktop-hidden" style="text-align: right; margin-bottom: 10px;">
+                        <div id="mobile-nav-close" class="btn--clear"
+                              style="display:inline-block; background: none; border: none; font-size: 1.5rem; cursor: pointer; color: #333;">
+                              <i class="fas fa-times"></i>
+                        </div>
+                  </li>
                   {% if author.location %}
                   <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
                   {% endif %}
@@ -155,4 +162,48 @@
                   {% endif %}
             </ul>
       </div>
+
+      <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                  var toggleBtn = document.getElementById("mobile-nav-toggle");
+                  var closeBtn = document.getElementById("mobile-nav-close");
+                  var sidebar = document.querySelector(".author__urls");
+
+                  function toggleSidebar() {
+                        if (sidebar) {
+                              if (sidebar.classList.contains("visible")) {
+                                    sidebar.classList.remove("visible");
+                              } else {
+                                    sidebar.classList.add("visible");
+                              }
+                        }
+                  }
+
+                  if (toggleBtn) {
+                        toggleBtn.addEventListener("click", function (e) {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              toggleSidebar();
+                        });
+                  }
+
+                  if (closeBtn) {
+                        closeBtn.addEventListener("click", function (e) {
+                              e.preventDefault();
+                              e.stopPropagation();
+                              if (sidebar) sidebar.classList.remove("visible");
+                        });
+                  }
+
+                  // Close when clicking outside
+                  document.addEventListener("click", function (e) {
+                        if (sidebar && sidebar.classList.contains("visible")) {
+                              // If checking containment, note that toggleBtn is outside sidebar primarily
+                              if (!sidebar.contains(e.target) && !toggleBtn.contains(e.target)) {
+                                    sidebar.classList.remove("visible");
+                              }
+                        }
+                  });
+            });
+      </script>
 </div>

@@ -256,12 +256,94 @@ p {
         padding-bottom: 4px;
         /* Space between date and content */
         margin-bottom: 2px;
-        color: #d14d87;
+        color: #000;
         /* Highlight color for date on mobile */
     }
 
     .news-table .news-item {
         padding-top: 0;
         padding-left: 0;
+    }
+}/* Mobile Sidebar Styles for Author URLs */
+@media (max-width: 1024px) {
+
+    /* Matching the breakpoint in _main.js roughly or standard mobile */
+    .author__urls {
+        position: fixed !important;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 280px;
+        background: #fff;
+        z-index: 99999;
+        /* Ensure it's on top of everything */
+        margin-top: 0 !important;
+        padding: 20px !important;
+        border-right: 1px solid #eee;
+        border-radius: 0 !important;
+        box-shadow: 2px 0 20px rgba(0, 0, 0, 0.15) !important;
+        /* display: none; handled by JS */
+        overflow-y: auto;
+        transform: translate3d(0, 0, 0);
+        /* Force hardware acceleration */
+    }
+
+    /* Remove the tooltip arrows from the original dropdown style */
+    .author__urls:before,
+    .author__urls:after {
+        display: none !important;
+    }
+
+    /* Ensure the list items are spaced comfortably */
+    .author__urls li {
+        margin-bottom: 10px;
+    }
+
+    .author__urls a {
+        font-size: 1.1em;
+        padding: 8px 0;
+        display: block;
+    }
+
+    /* Hide the close button on desktop */
+    .author__desktop-hidden {
+        display: block;
+    }
+}
+
+@media (min-width: 1025px) {
+    .author__desktop-hidden {
+        display: none !important;
+    }
+}
+
+/* Ensure the wrapper respects the fixed positioning context if needed, 
+   but since .author__urls is fixed, it breaks out of flow. Good. *//* Helper class for JS toggle */
+.author__urls.visible {
+    display: block !important;
+    animation: slideInLeft 0.3s ease-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}/* Toggle Button Visibility Logic */
+#mobile-nav-toggle {
+    display: none;
+    /* Hide by default on desktop */
+}
+
+@media (max-width: 1024px) {
+    #mobile-nav-toggle {
+        display: inline-block;
+        /* Show only on mobile */
+        margin-bottom: 15px;
     }
 }
