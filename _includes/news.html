@@ -1,10 +1,14 @@
 {% capture content %}
-<table style='border:none;'>
-{% for note in include.news %}
-<tr><td style='border:none; width:160px; padding-right: 10px;'><strong>{{ note.date | date: "%-d %B %Y" }}</strong></td><td style='border:none;'>{{ note.item }}</td></tr>
-{% endfor %}
+<table class="news-table">
+    {% for note in include.news %}
+    <tr>
+        <td class="news-date"><strong>{% if
+                note.display_date %}{{
+                note.display_date }}{% else %}{{ note.date | date: "%B %Y" }}{% endif %}</strong></td>
+        <td class="news-item">{{ note.item }}</td>
+    </tr>
+    {% endfor %}
 </table>
 {% endcapture %}
 
 {{ content | markdownify }}
-

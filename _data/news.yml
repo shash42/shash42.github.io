@@ -2,14 +2,17 @@
 # - item: Our paper on using interpretability to understand why Language Model's struggle with negation accepted at the ACL RepL4NLP workshop 2023 
 #   date: 2023-07-09
 
-- item: First Quantitative Research Intern in India at Millennium (American Hedge Fund). Worked on AutoML for trading.
+- item: <a href="https://en.wikipedia.org/wiki/Millennium_Management">Millennium Management's</a> first Quant Research Intern in India.<br>Built an AutoML library for trading.
   date: 2023-06-01
+  display_date: "June - Aug. 2023"
 
-- item: Completed the SERI MATS program (and extension), contributing to the Centre for AI Safety (RepE, WMDP). 
+- item: <a href="https://www.matsprogram.org/">SERI MATS Scholar</a>, worked with the Centre for AI Safety on<br><a href="https://www.ai-transparency.org/">Representation Engineering</a>, <a href="https://www.wmdp.ai/">WMDP</a>. 
   date: 2023-12-01
+  display_date: "August - Dec. 2023"
 
-- item: <b>Outstanding Paper Award at AAAI 2024</b> for our paper <a href="https://arxiv.org/abs/2306.14858">Proportional Aggregation of Preferences for Sequential Decision Making</a>
+- item: <b>Outstanding Paper Award at AAAI 2024</b> for our paper<br><a href="https://arxiv.org/abs/2306.14858">Proportional Aggregation of Preferences for Sequential Decision Making</a>
   date: 2024-02-23
+  display_date: "February 2024"
   
 # - item: Recognized as an Exceptional Reviewer at the ICLR Data-Centric ML Workshop
 #   date: 2024-04-10
@@ -17,11 +20,11 @@
 # - item: <a href="https://arxiv.org/abs/2403.03218">The WMDP Benchmark:Measuring and Reducing Malicious with Unlearning</a> accepted at ICML 2024
 #   date: 2024-05-01
 
-- item: Defended my masters thesis on <em>New Frontiers for Machine Unlearning</em> at IIIT Hyderabad
-  date: 2024-05-24
+# - item: Defended my masters thesis on <em>New Frontiers for Machine Unlearning</em> at IIIT Hyderabad
+#   date: 2024-05-24
 
-- item: Starting a PhD in Tübingen (Germany), co-advised by Jonas Geiping (ELLIS, MPI-IS) and Douwe Kiela (Contextual AI, Stanford)
-  date: 2024-09-02
+# - item: Starting a PhD in Tübingen (Germany), co-advised by Jonas Geiping (ELLIS, MPI-IS) and Douwe Kiela (Contextual AI, Stanford)
+#   date: 2024-09-02
 
 # - item: <a href="https://arxiv.org/abs/2402.14015">Corrective Machine Unlearning</a> accepted at TMLR
 #   date: 2024-10-13
@@ -32,9 +35,10 @@
 # - item: <a href="https://arxiv.org/abs/2502.19414">Can Language Models Falsify?</a> selected for Oral Presentation at ICLR-SSI FM Workshop
 #   date: 2025-02-26
 
-- item: Started as a Research Scientist intern at Meta GenAI London
+- item: Research Scientist Intern at Meta Superintelligence Labs.<br><a href="https://arxiv.org/abs/2506.15226">Trained AI Co-Scientists with Rubric RL</a>.
   date: 2025-06-23
+  display_date: "June - Nov. 2025"
 
-- item: |
-    Presenting 5 projects (1 spotlight, 1 workshop oral) at ICML 2025<br>
-  date: 2025-07-13
+# - item: |
+#     Presenting 5 projects (1 spotlight, 1 workshop oral) at ICML 2025<br>
+#   date: 2025-07-13

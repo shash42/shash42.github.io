@@ -1,0 +1,267 @@
+/* Featured Work Grid Styles */
+.publications-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: start;
+    /* Prevents cards from stretching vertically blindly */
+}
+
+.publication-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    height: auto;
+}
+
+/* Expansion Logic: Hover on desktop, .expanded class on mobile (click) */
+.publication-card:hover,
+.publication-card.expanded {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    border-color: #bbbbbb;
+    z-index: 10;
+}
+
+.publication-card-title {
+    font-size: 1.1em;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    line-height: 1.3;
+    color: #222;
+    text-align: center;
+}
+
+.publication-card-title a {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px dotted transparent;
+    transition: border-color 0.2s;
+}
+
+.publication-card-title a:hover {
+    border-bottom-color: #222;
+}
+
+/* Featured Work Superscripts */
+.publication-card-title sup {
+    font-size: 0.6em;
+    margin-right: 3px;
+    color: #d14d87;
+    vertical-align: text-top;
+    line-height: 1;
+}
+
+.publication-summary {
+    font-size: 15px;
+    color: #444;
+    line-height: 1.45;
+    margin-bottom: 0;
+}
+
+/* Details hidden by default */
+.publication-details {
+    display: none;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+    animation: fadeIn 0.25s ease-out;
+}
+
+/* Show details on hover OR when expanded class is present */
+.publication-card:hover .publication-details,
+.publication-card.expanded .publication-details {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.publication-meta {
+    font-size: 0.85em;
+    color: #666;
+    line-height: 1.4;
+}
+
+.publication-venue {
+    margin-top: 6px;
+    font-style: italic;
+    color: #555;
+}
+
+.publication-links {
+    margin-top: 10px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.publication-link-btn {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 2px 6px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #555;
+    background: #f9f9f9;
+}
+
+.publication-link-btn:hover {
+    background: #eee;
+    color: #333;
+    text-decoration: none;
+}
+
+/* --- User Customizations --- */
+
+/* Hide masthead completely */
+.masthead {
+    display: none !important;
+}
+
+/* Global Link Styling */
+p a,
+.author__urls a {
+    color: #d14d87;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+p a:hover,
+.author__urls a:hover {
+    color: #a03060;
+    text-decoration: none;
+}
+
+/* Ensure superscripts stand out */
+sup a {
+    font-weight: 600;
+}
+
+/* --- Refinements --- */
+
+/* Reset Sidebar Links */
+.author__urls a {
+    color: inherit !important;
+}
+
+.author__urls a:hover {
+    color: #444 !important;
+}
+
+/* User asked for NO UNDERLINES anywhere */
+a {
+    text-decoration: none !important;
+}
+
+/* Modern Thin Font */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-weight: 400;
+    /* Increased from 300 */
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500 !important;
+    /* Slightly distinct headers */
+}
+
+/* Adjust paragraph font weight for readability */
+p {
+    font-weight: 400;
+}
+
+/* News Table Links */
+.news-table a {
+    color: #d14d87;
+    text-decoration: none;
+}
+
+.news-table a:hover {
+    color: #a03060;
+    text-decoration: none;
+}
+
+/* News Table Styles - Replaces inline styles */
+.news-table {
+    border: none !important;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+
+    /* Force removal of all borders on rows and cells */
+    tr,
+    td,
+    th {
+        border: none !important;
+    }
+
+    .news-date {
+        width: 180px;
+        padding: 4px 10px 4px 0;
+        vertical-align: top;
+    }
+
+    .news-item {
+        padding: 4px 0;
+        vertical-align: top;
+    }
+}
+
+/* Mobile Responsiveness for News Table */
+@media (max-width: 768px) {
+
+    .news-table,
+    .news-table tbody,
+    .news-table tr,
+    .news-table td {
+        display: block;
+        width: 100%;
+    }
+
+    .news-table tr {
+        margin-bottom: 1.25rem;
+    }
+
+    .news-table .news-date {
+        width: 100%;
+        padding-bottom: 4px;
+        /* Space between date and content */
+        margin-bottom: 2px;
+        color: #d14d87;
+        /* Highlight color for date on mobile */
+    }
+
+    .news-table .news-item {
+        padding-top: 0;
+        padding-left: 0;
+    }
+}
