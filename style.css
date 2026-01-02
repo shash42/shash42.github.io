@@ -1,0 +1,151 @@
+/* =====================================
+   SHASHWAT GOEL - PERSONAL WEBSITE
+   ===================================== */
+
+:root {
+    --color-bg: #f5f5f0;
+    --color-text: #333333;
+    --color-link: #2d5a7b;
+    --color-link-hover: #1a3a52;
+    --color-heading: #222222;
+    --color-muted: #666666;
+
+    --font-main: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 17px;
+}
+
+body {
+    font-family: var(--font-main);
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    -webkit-font-smoothing: antialiased;
+    padding: 2rem;
+}
+
+/* Name - stays at left */
+.name {
+    font-size: 1.8rem;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--color-heading);
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+}
+
+/* Page layout - image left, content flows right */
+.page-layout {
+    display: flex;
+    gap: 1.5rem;
+}
+
+/* Image - shifted right from edge */
+.profile-image {
+    width: 220px;
+    height: auto;
+    object-fit: cover;
+    flex-shrink: 0;
+    margin-left: 8rem;
+    align-self: flex-start;
+}
+
+/* Content - starts right after image */
+.content {
+    flex: 1;
+    max-width: 700px;
+}
+
+/* Bio */
+.bio p {
+    margin-bottom: 0.9rem;
+    font-size: 0.95rem;
+    line-height: 1.65;
+}
+
+.bio p:last-child {
+    margin-bottom: 0;
+}
+
+/* Links */
+a {
+    color: var(--color-link);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    transition: color 0.15s ease;
+}
+
+a:hover {
+    color: var(--color-link-hover);
+}
+
+/* Work Section */
+.work-section {
+    margin-top: 2rem;
+}
+
+.work-section h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: var(--color-heading);
+    margin-bottom: 0.6rem;
+}
+
+.work-list {
+    list-style: none;
+}
+
+.work-list li {
+    display: flex;
+    gap: 0.75rem;
+    line-height: 1.5;
+    margin-bottom: 0.2rem;
+    font-size: 0.92rem;
+}
+
+.work-list .date {
+    flex-shrink: 0;
+    width: 75px;
+    color: var(--color-muted);
+    font-size: 0.88rem;
+}
+
+.work-list a {
+    color: var(--color-link);
+    text-decoration: none;
+}
+
+.work-list a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .page-layout {
+        flex-direction: column;
+    }
+
+    .profile-image {
+        margin-left: 0;
+        width: 140px;
+    }
+
+    .content {
+        margin: 0;
+    }
+
+    .name {
+        padding-left: 0;
+    }
+}
